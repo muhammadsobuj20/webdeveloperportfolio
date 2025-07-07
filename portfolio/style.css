@@ -1,5 +1,35 @@
-*{
+* {
   border: 0;
   margin: 0;
   box-sizing: 0;
+}
+ 
+
+
+/* header section */
+
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+nav ul{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
 }
