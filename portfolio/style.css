@@ -3,33 +3,185 @@
   margin: 0;
   box-sizing: 0;
 }
- 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
+/* header */
+
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin: 0 auto;
+  background-color: #fff8f3;
+}
 
 /* header section */
 
-.text-primary{
-    color: #FD6E0A;
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
 
+.txt-primary {
+  color: #f76802;
+  font-size: 60px;
+}
+nav txt-primary {
+  margin-left: 50px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   justify-items: center;
+  margin-left: 130px;
 }
 
-nav ul{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 130px;
 }
 
 nav ul li {
   list-style: none;
+  padding: 10px 25px;
+  color: black;
 }
 
 nav li a {
   text-decoration: none;
+}
+
+/* this is shaerd section (common title)*/
+
+.txt-description {
+  text-align: center;
+}
+
+.primary-btn {
+  background-color: #f76802;
+  color: white;
+  padding: 20px 45px;
+  border-radius: 5px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.primary-btn:hover {
+  color: #000000;
+  background-color: #95a5a6;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+/* this is banner section  */
+
+.banner {
+  /* background-image: linear-gradient(#F1C40F, #F39C12, #E67E22, #D35400, #E74C3C, #C0392B); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-greeting {
+  text-align: center;
+  color: black;
+  font-size: bold;
+  text-align: left;
+}
+
+.banner-title {
+  color: #000000;
+  font-weight: 800;
+  text-align: left;
+  font-size: 45px;
+}
+
+.banner-content {
+  margin-top: 30px;
+  margin-left: 130px;
+  align-items: center;
+  max-width: 580px;
+}
+
+.banner-profile-pic {
+  max-width: 400px;
+  margin-bottom: 0;
+}
+
+/* about section */
+
+.about-section {
+  background-color: #fff8f3;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.about-container {
+  display: flex;
+  gap: 50px;
+  margin: 120px 150px;
+}
+
+.info-tilte {
+}
+.about-content {
+}
+
+/* what i do section or (skill section) */
+
+.what-i-do-section {
+}
+
+.skills-container {
+}
+
+.skill-content {
+}
+
+/* this resume section */
+
+.resume-section {
+}
+
+.resume-items-container {
+}
+
+.resume-column {
+}
+
+.resume-items {
+}
+
+.resume-items-title {
+}
+
+.institute-title {
+}
+
+/* this is footer section */
+
+footer {
+}
+
+.footer-column {
+}
+
+.contact {
 }
