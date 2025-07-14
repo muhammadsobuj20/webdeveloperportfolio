@@ -2,13 +2,14 @@
   border: 0;
   margin: 0;
   box-sizing: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
 }
 body {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  max-width: 1280px;
+  margin: 0 auto;
+
 }
 
 /* header */
@@ -253,12 +254,12 @@ footer {
   font-size: 40px;
   margin-top: 50px;
 }
-form input {
-  padding: 20px 35px;
+form>input {
+  padding: 20px 80px;
   margin-bottom: 25px;
   text-align: left;
   display: block;
-  border: 18px 35px;
+ 
 }
 form textarea {
   padding: 20px 35px;
